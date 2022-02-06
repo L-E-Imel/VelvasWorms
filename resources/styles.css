@@ -71,10 +71,16 @@ header .content {
     align-items: center;
 }
 
+header p {
+    margin-left: 5px;
+    font-size: 1.25;
+    width: 150px;
+}
+
 header img {
     height: 30px;
     width: auto;
-    margin-left: 30px;
+    margin-left: 20px;
     flex-grow: 1;
     margin-top: 0;
     
@@ -91,7 +97,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100%;
+    width: 90%;
     margin-right: 20px;
 }
 

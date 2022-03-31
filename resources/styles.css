@@ -289,9 +289,13 @@ nav a:hover {
 }
 
 .center {
-    display:grid;
-    justify-content: center;
+    display:block;
     text-align: justify;
+}
+
+table {
+    margin: auto;
+    width: 65%;
 }
 
 td {

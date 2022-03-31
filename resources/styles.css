@@ -51,7 +51,9 @@ h3 {
 }
 
 li,
-p {
+p,
+th,
+td {
     font-family: 'Fauna One', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -296,6 +298,10 @@ nav a:hover {
 table {
     margin: auto;
     width: 65%;
+}
+
+th {
+    font-weight: bold;
 }
 
 td {

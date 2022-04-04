@@ -2,20 +2,20 @@ html {
     font-size: 16px;
 }
 
-@media screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
     html {
         font-size: 10px;
     }
 }
 
-@media  screen and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
     html {
         font-size: 12px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    heml {
+@media only screen and (max-width: 800px) {
+    html {
         font-size: 14px;
     }
 }
@@ -204,12 +204,6 @@ nav a:hover {
     line-height: 1.5rem;
 }
 
-@media screeen and (min-width: 680px) {
-    .container {
-        width: 35%;
-        height: 40%;
-    }
-}
 
 .container img {
     height: auto;
@@ -271,6 +265,7 @@ nav a:hover {
 
 .split {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
     width: 100%;
@@ -278,11 +273,11 @@ nav a:hover {
 
 #price,
 #hours {
-    margin: 30px auto 0 auto;
+    margin-top: 30px;
     border: 3px solid #F27999;
     border-radius: 6px;
     background-color: #FBFBFA;
-    width: 45%;
+    min-width: 45%;
 }
 
 #price h2,
